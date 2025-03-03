@@ -19,9 +19,9 @@ spec:
         image: 710271914553.dkr.ecr.us-east-1.amazonaws.com/frontend:10
         ports:
         - containerPort: 80
-          # env:
-          # - name: REACT_APP_API_BASE_URL
-          # value: "http://abdullahbrand.shop"
+          env:
+          - name: REACT_APP_API_BASE_URL
+          value: "http://abdullahbrand.shop"
 
 ---
 apiVersion: v1
