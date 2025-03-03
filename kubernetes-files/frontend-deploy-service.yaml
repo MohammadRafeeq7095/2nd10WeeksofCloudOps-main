@@ -21,7 +21,7 @@ spec:
         - containerPort: 80
           # env:
           # - name: REACT_APP_API_BASE_URL
-          # value: "http://3.111.197.160:31005"
+          # value: "http://abdullahbrand.shop"
 
 ---
 apiVersion: v1
